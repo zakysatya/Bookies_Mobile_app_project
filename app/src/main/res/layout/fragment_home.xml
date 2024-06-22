@@ -64,17 +64,17 @@
         app:layout_constraintTop_toTopOf="@id/divider" />
 
     <TextView
-        android:layout_marginVertical="25dp"
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="25dp"
+        android:layout_marginLeft="30dp"
         android:text="@string/welcome_text"
-        android:textSize="24sp"
         android:textColor="@color/primary_color"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
-        app:layout_constraintTop_toBottomOf="@id/homeText"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeText" />
 
     <LinearLayout
         android:id="@+id/homeContainer"
@@ -114,14 +114,13 @@
         android:id="@+id/yourForumText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/your_forum_text"
-        android:textSize="24sp"
-        android:textColor="@color/primary_color"
-        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
-        app:layout_constraintTop_toBottomOf="@id/homeContainer"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        />
+        android:text="@string/your_forum_text"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/primary_color"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeContainer" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/yourForumContainer"
