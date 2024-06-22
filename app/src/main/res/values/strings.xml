@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Bookies</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="email_text">Email</string>
+    <string name="email_text_field">Email</string>
+    <string name="username_text">Username</string>
+    <string name="username_text_field">Username</string>
+    <string name="password_text">Password</string>
+    <string name="password_text_field">Password</string>
+    <string name="forget_password_text">Forget Password?</string>
+    <string name="sign_in_text_button">Sign In</string>
+    <string name="sign_up_text_button">Sign Up</string>
+    <string name="no_account_text_button">No account? Register now</string>
+    <string name="have_account_text_button">Have account? Login Now</string>
+    <string name="home_text">HOME</string>
+    <string name="study_tips_text">STUDY TIPS</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="today_tips_text">Today tips that we have chosen!</string>
+    <string name="tips1">SET UP A QUIET STUDY SPACE</string>
+    <string name="tips2">DON’T JUST RE-READ BUT STUDY</string>
+    <string name="tips3">CREATE A STUDY PLAN AND STICK TO IT</string>
+    <string name="tips4">SPACE OUT YOUR STUDYING</string>
+    <string name="tips5">TAKE NOTES</string>
+    <string name="tips_text">Tips of the day:</string>
+    <string name="menu_tips_text">SET UP A QUIET STUDY SPACE</string>
+    <string name="community_text">COMMUNITY</string>
+    <string name="join_community_text">Join the community for group learning experience</string>
+    <string name="profile_text">PROFILE</string>
+    <string name="your_forum_text">Your Forum:</string>
+</resources>
