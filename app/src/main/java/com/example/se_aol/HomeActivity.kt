@@ -7,6 +7,7 @@ import com.example.se_aol.fragment.CommunityFragment
 import com.example.se_aol.fragment.HomeFragment
 import com.example.se_aol.fragment.ProfileFragment
 import com.example.se_aol.fragment.StudyTipsFragment
+import com.example.se_aol.model.Users
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
@@ -14,12 +15,21 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        val userData = intent.getSerializableExtra("user", Users::class.java) as Users
+        val bundle = Bundle()
+        bundle.putSerializable("user", userData)
+
         val homeFragment = HomeFragment()
+        homeFragment.arguments = bundle
         replaceFragment(homeFragment)
 
+
         val studyFragment = StudyTipsFragment()
+        studyFragment.arguments = bundle
         val communityFragment = CommunityFragment()
+        communityFragment.arguments = bundle
         val profileFragment = ProfileFragment()
+        profileFragment.arguments = bundle
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation) as BottomNavigationView
         bottomNavigationView.setOnNavigationItemSelectedListener {
