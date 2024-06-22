@@ -1,6 +1,6 @@
-## Bookies Mobile App Project
+# Bookies Mobile App Project
 
-# Teams
+## Teams
   - Nickson
   - Zaky
   - Tandi
